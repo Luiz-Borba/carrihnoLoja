@@ -113,3 +113,25 @@ Use this section to outline areas that you want to continue focusing on in futur
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
+
+
+
+
+<div>
+        <div id="carrosel">
+            <img src="./images/icon-close.svg" alt="" style="margin-left:95% ;">
+            <div id="areaCarrosel">
+                <button id="previus"><img src="./images/icon-previous.svg" alt=""></button>
+                <img src="./images/image-product-1.jpg" alt="" class="products" id="produto1" ondblclick="">
+                <button id="next"><img src="./images/icon-next.svg" alt=""></button>
+            </div>
+            
+            <div id="navImagens">
+                <img src="./images/image-product-1-thumbnail.jpg" alt="" class="subImagens" id="1" onclick="trocar.trocaImagem1()">
+                <img src="./images/image-product-2-thumbnail.jpg" alt="" class="subImagens" id="2" onclick="trocar.trocaImagem2()">
+                <img src="./images/image-product-3-thumbnail.jpg" alt="" class="subImagens" id="3" onclick="trocar.trocaImagem3()">
+                <img src="./images/image-product-4-thumbnail.jpg" alt="" class="subImagens" id="4" onclick="trocar.trocaImagem4()">
+            </div>
+        </div>
+    </div>

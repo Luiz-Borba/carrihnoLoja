@@ -41,6 +41,9 @@ h5 {
 #imgPerfil {
   width: 100%;
 }
+#produto1{
+  cursor: pointer;
+}
 #menuHorizontal {
   display: flex;
 }
@@ -93,6 +96,7 @@ aside {
     width: 30%;
     min-width: 450px;
     margin: 5% 30%;
+    z-index: -99999;
     visibility: hidden;
 }
 .botaoCarrosel{
