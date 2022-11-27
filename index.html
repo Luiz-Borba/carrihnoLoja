@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +9,43 @@
     <script src="./index.js"></script>
     <title>Carrinho</title>
 </head>
+
 <body>
     <header>
-     <div id="headerContent">
-        <div class="blocosHeader">
-            <img src="./images/logo.svg" alt="">
-            <ul id="menuHorizontal">
-                <li>Collections</li>
-                <li>Men</li>
-                <li>Women</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-        <div class="blocosHeader">
-            <img src="./images/icon-cart.svg" alt="">
-            <div id="perfil">
-                <img src="./images/image-avatar.png" alt="" id="imgPerfil">
+        <div id="headerContent">
+            <div class="blocosHeader">
+                <img src="./images/logo.svg" alt="">
+                <ul id="menuHorizontal">
+                    <li><a href="" class="borderBottom">Collections</a></li>
+                    <li><a href="">Men</a></li>
+                    <li><a href="">Women</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
             </div>
-        </div>
+            <div class="blocosHeader">
+                <img src="./images/icon-cart.svg" alt="">
+                <div id="perfil">
+                    <img src="./images/image-avatar.png" alt="" id="imgPerfil">
+                </div>
+            </div>
 
     </header>
-    <main></main>
-    <aside></aside>
+    <div id="container">
+        <main>
+            <div>
+                <img src="./images/image-product-1.jpg" alt="" class="products" id="produto1">
+            </div>
+            <div id="navImagens">
+                <img src="./images/image-product-1-thumbnail.jpg" alt="" class="subImagens" id="1" onclick="trocar.trocaImagem1()">
+                <img src="./images/image-product-2-thumbnail.jpg" alt="" class="subImagens" id="2" onclick="trocar.trocaImagem2()">
+                <img src="./images/image-product-3-thumbnail.jpg" alt="" class="subImagens" id="3" onclick="trocar.trocaImagem3()">
+                <img src="./images/image-product-4-thumbnail.jpg" alt="" class="subImagens" id="4" onclick="trocar.trocaImagem4()">
+            </div>
+        </main>
+        <aside></aside>
+    </div>
     <footer></footer>
 </body>
+
 </html>

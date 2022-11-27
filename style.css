@@ -1,24 +1,21 @@
 body {
   padding: 0px;
   margin: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-header {
-  border: red solid 1px;
-}
+
 #headerContent {
   width: 80%;
   margin: 0px auto;
-  height: 150px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
-.blocosHeader{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-
+.blocosHeader {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 #perfil {
   border: red solid 1px;
@@ -36,4 +33,29 @@ ul {
   list-style: none;
   gap: 20px;
 }
+a{text-decoration: none;}
 
+#container {
+  width: 80%;
+  margin: 0px auto;
+}
+main {
+  
+  width: 40%;
+}
+.products{
+    width: 100%;
+    border-radius: 20px;
+
+}
+#navImagens{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.subImagens{
+    width: 19%;
+    border-radius: 10px;
+    cursor: pointer;
+}
