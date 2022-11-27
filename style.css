@@ -2,6 +2,38 @@ body {
   padding: 0px;
   margin: 0px;
 }
-header{border:red solid 1px;
-width: 100%;
-height: 150px;}
+header {
+  border: red solid 1px;
+}
+#headerContent {
+  width: 80%;
+  margin: 0px auto;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.blocosHeader{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+#perfil {
+  border: red solid 1px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+#imgPerfil {
+  width: 100%;
+}
+#menuHorizontal {
+  display: flex;
+}
+ul {
+  list-style: none;
+  gap: 20px;
+}
+
