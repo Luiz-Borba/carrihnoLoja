@@ -4,7 +4,21 @@ body {
   font-size: 1em;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
+h5 {
+  color: #e2874a;
+}
+#title {
+  font-size: 2.8em;
+}
+.colorOP {
+  color: #a9aaae;
+}
+#valor {
+  display: flex;
+}
+.flex {
+  display: flex;
+}
 #headerContent {
   width: 80%;
   margin: 0px auto;
@@ -64,4 +78,13 @@ main {
 }
 aside {
   width: 50%;
+}
+#container-compras{
+    justify-content: space-between;
+}
+#compras {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 20%;
 }
