@@ -88,3 +88,41 @@ aside {
   align-items: center;
   gap: 20%;
 }
+#carrosel{
+    position: absolute;
+    width: 30%;
+    min-width: 450px;
+    margin: 5% 30%;
+    visibility: hidden;
+}
+.botaoCarrosel{
+    border: red solid 1px;
+    background-color: white;
+    width: 10px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+#areaCarrosel{
+  display: flex;
+  align-items: center;
+}
+#next{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-left: 95%;
+  border: none;
+  cursor: pointer;
+}
+#previus{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: -4%;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+}

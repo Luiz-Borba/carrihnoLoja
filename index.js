@@ -33,6 +33,7 @@ class Products{
         document.getElementById("1").style.opacity = "1";
         
     }
+    
 }
 
 let trocar = new Products;
