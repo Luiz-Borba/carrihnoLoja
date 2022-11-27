@@ -1,7 +1,8 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 #headerContent {
@@ -33,29 +34,34 @@ ul {
   list-style: none;
   gap: 20px;
 }
-a{text-decoration: none;}
+a {
+  text-decoration: none;
+}
 
 #container {
   width: 80%;
+  display: flex;
+  justify-content: space-between;
   margin: 0px auto;
 }
 main {
-  
   width: 40%;
 }
-.products{
-    width: 100%;
-    border-radius: 20px;
-
+.products {
+  width: 100%;
+  border-radius: 20px;
 }
-#navImagens{
-    margin-top: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+#navImagens {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.subImagens{
-    width: 19%;
-    border-radius: 10px;
-    cursor: pointer;
+.subImagens {
+  width: 19%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+aside {
+  width: 50%;
 }
