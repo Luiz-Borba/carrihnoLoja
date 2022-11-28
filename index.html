@@ -11,8 +11,25 @@
 </head>
 
 <body>
-
     <header>
+        
+<div>
+    <div id="carrosel">
+       <a href="" onclick="fecharCarroseel()"> <img src="./images/icon-close.svg" alt="" style="margin-left:95% ;"></a>
+        <div id="areaCarrosel">
+            <button id="previus"><img src="./images/icon-previous.svg" alt=""></button>
+            <img src="./images/image-product-1.jpg" alt="" class="products" id="produto1" ondblclick="">
+            <button id="next" onclick="trocar.test()"><img src="./images/icon-next.svg" alt=""></button>
+        </div>
+        
+        <div id="navImagens">
+            <img src="./images/image-product-1-thumbnail.jpg" alt="" class="subImagens" id="1" onclick="trocar.trocaImagem1()">
+            <img src="./images/image-product-2-thumbnail.jpg" alt="" class="subImagens" id="2" onclick="trocar.trocaImagem2()">
+            <img src="./images/image-product-3-thumbnail.jpg" alt="" class="subImagens" id="3" onclick="trocar.trocaImagem3()">
+            <img src="./images/image-product-4-thumbnail.jpg" alt="" class="subImagens" id="4" onclick="trocar.trocaImagem4()">
+        </div>
+    </div>
+</div>
         <div id="headerContent">
             <div class="blocosHeader">
                 <img src="./images/logo.svg" alt="">
@@ -35,13 +52,14 @@
     <div id="container">
         <main>
             <div>
-                <img src="./images/image-product-1.jpg" alt="" class="products" id="produto1" ondblclick="">
+                <img src="./images/image-product-1.jpg" alt="" class="products" id="produto01"ondblclick="trocar.abriCarrossel()">
+                
             </div>
             <div id="navImagens">
-                <img src="./images/image-product-1-thumbnail.jpg" alt="" class="subImagens" id="1" onclick="trocar.trocaImagem1()">
-                <img src="./images/image-product-2-thumbnail.jpg" alt="" class="subImagens" id="2" onclick="trocar.trocaImagem2()">
-                <img src="./images/image-product-3-thumbnail.jpg" alt="" class="subImagens" id="3" onclick="trocar.trocaImagem3()">
-                <img src="./images/image-product-4-thumbnail.jpg" alt="" class="subImagens" id="4" onclick="trocar.trocaImagem4()">
+                <img src="./images/image-product-1-thumbnail.jpg" alt="" class="subImagens" id="item1" onclick="trocar.trocaImagemItem1()">
+                <img src="./images/image-product-2-thumbnail.jpg" alt="" class="subImagens" id="item2" onclick="trocar.trocaImagemItem2()">
+                <img src="./images/image-product-3-thumbnail.jpg" alt="" class="subImagens" id="item3" onclick="trocar.trocaImagemItem3()">
+                <img src="./images/image-product-4-thumbnail.jpg" alt="" class="subImagens" id="item4" onclick="trocar.trocaImagemItem4()">
             </div>
         </main>
         <aside>

@@ -44,6 +44,9 @@ h5 {
 #produto1{
   cursor: pointer;
 }
+#produto01{
+  cursor: pointer;
+}
 #menuHorizontal {
   display: flex;
 }
@@ -96,7 +99,7 @@ aside {
     width: 30%;
     min-width: 450px;
     margin: 5% 30%;
-    z-index: -99999;
+    z-index: -9999;
     visibility: hidden;
 }
 .botaoCarrosel{
