@@ -41,10 +41,10 @@ h5 {
 #imgPerfil {
   width: 100%;
 }
-#produto1{
+#produto1 {
   cursor: pointer;
 }
-#produto01{
+#produto01 {
   cursor: pointer;
 }
 #menuHorizontal {
@@ -56,6 +56,7 @@ ul {
 }
 a {
   text-decoration: none;
+  color: #e2874a;
 }
 
 #container {
@@ -85,37 +86,57 @@ main {
 aside {
   width: 50%;
 }
-#container-compras{
-    justify-content: space-between;
+#container-compras {
+  justify-content: space-between;
 }
 #compras {
-  width: 40%;
+  width: 30%;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  background-color: #ededed;
+  border-radius: 20px;
   gap: 20%;
 }
-#carrosel{
-    position: absolute;
-    width: 30%;
-    min-width: 450px;
-    margin: 5% 30%;
-    z-index: -9999;
-    visibility: hidden;
+#adicao {
+  font-size: 2em;
 }
-.botaoCarrosel{
-    border: red solid 1px;
-    background-color: white;
-    width: 10px;
-    height: 20px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
+#subtracao {
+  font-size: 2.5em;
 }
-#areaCarrosel{
+#cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 110%;
+  justify-content: space-between;
+  border: none;
+  background-color: #e2874a;
+  color: white;
+}
+#carrosel {
+  position: absolute;
+  width: 30%;
+  min-width: 450px;
+  margin: 5% 30%;
+  z-index: -9999;
+  visibility: hidden;
+}
+.botaoCarrosel {
+  border: red solid 1px;
+  background-color: white;
+  width: 10px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+#areaCarrosel {
   display: flex;
   align-items: center;
 }
-#next{
+#next {
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -124,7 +145,7 @@ aside {
   border: none;
   cursor: pointer;
 }
-#previus{
+#previus {
   border-radius: 50%;
   width: 50px;
   height: 50px;

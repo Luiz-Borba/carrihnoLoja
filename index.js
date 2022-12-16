@@ -79,5 +79,12 @@ fecharCarroseel(){
     document.getElementById("container").style.opacity ="1"
 }
 }
-
+class Carrinho{
+    adicao(){
+        let soma = document.querySelector("contador").Value
+        soma = soma+1
+        return document.getElementById("contador").innerText =`${soma}`
+    }
+}
 let trocar = new Products;
+let cart = new Carrinho
